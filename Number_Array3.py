@@ -1,4 +1,6 @@
-#numbers input split by space
+#note: still not accurate, for trial only
+
+# #numbers input split by space
 num = input("Enter 10 numbers:\n").split(' ') 
 
 #convert into integer
