@@ -1,5 +1,8 @@
-str_arr = input("Enter 10 numbers:\n").split(' ') 
-arr = [int(num) for num in str_arr]
+#numbers input split by space
+num = input("Enter 10 numbers:\n").split(' ') 
+
+#convert into integer
+arr = [int(num) for num in num]
 
 #used to count number of elements in an array
 elements = len(arr)
