@@ -1,5 +1,3 @@
-#note: still not accurate, for trial only
-
 # #numbers input split by space
 num = input("Enter 10 numbers:\n").split(' ') 
 
@@ -17,13 +15,23 @@ if elements == 10:
             if(arr[i] > arr[j]):    
                 temp = arr[i];    
                 arr[i] = arr[j];    
-                arr[j] = temp;    
+                arr[j] = temp;  
 
-    #output
-    print ("\nfirst to the highest: ", arr[9])
-    print ("second to the highest: ", arr[8])
-    print ("first to the lowest: ", arr[0])
-    print ("second to the highest: ", arr[1])
-else:
-    print("Invalid. Please enter 10 numbers.")
+    #dictionaries can't have duplicated keys
+    duplicated = list(dict.fromkeys(arr))
+    print (duplicated)
 
+    #used to count number of elements in filtered list
+    repeated = len(duplicated)
+
+    if repeated == 1:
+        print("\nfirst to the highest: ", duplicated[0]);   
+        print("second to the highest: ", duplicated[0]); 
+        print("second to the lowest: ", duplicated[0]); 
+        print("first to the lowest: ", duplicated[0]); 
+    else:
+        #use negative indices to get the end of an array      
+        print("\nfirst to the highest: ", duplicated[-1]);   
+        print ("second to the highest: ", duplicated[-2])
+        print ("second to the lowest: ", duplicated[1])
+        print ("first to the lowest: ", duplicated[0])
