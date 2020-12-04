@@ -1,7 +1,7 @@
 # #numbers input split by space
 num = input("Enter 10 numbers:\n").split(' ') 
 
-#convert into integer
+#convert into integer, stored in an array
 arr = [int(num) for num in num]
 
 #used to count number of elements in an array
