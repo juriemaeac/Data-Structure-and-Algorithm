@@ -19,4 +19,6 @@ def DecToBin(num):
 number = int(input("Enter a decimal number: "))
 
 DecToBin(number)
+
+#printing of list without brackets and space
 print ("Binary equivalent: ", *lstWhole, sep = "")
