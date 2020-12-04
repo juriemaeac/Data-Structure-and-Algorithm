@@ -32,6 +32,8 @@ if elements == 10:
     else:
         #use negative indices to get the end of an array      
         print("\nfirst to the highest: ", duplicated[-1]);   
-        print ("second to the highest: ", duplicated[-2])
-        print ("second to the lowest: ", duplicated[1])
-        print ("first to the lowest: ", duplicated[0])
+        print("second to the highest: ", duplicated[-2])
+        print("second to the lowest: ", duplicated[1])
+        print("first to the lowest: ", duplicated[0])
+else:
+    print("Please input 10 numbers!")
