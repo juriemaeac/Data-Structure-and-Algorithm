@@ -24,6 +24,7 @@ while True:
         
         DecToBin(Inputnumber)
 
+        #printing of list without brackets and space
         print ("Binary equivalent: ", *lstWhole, sep = "")
         break;
 
