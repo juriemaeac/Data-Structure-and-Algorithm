@@ -1,4 +1,7 @@
-
+'''
+by Jurie Mae Castronuevo
+from BSCOE 2-6
+'''
 print("="*45)
 print("\t\t\t\t\tMENU")
 print("="*45)
