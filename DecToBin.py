@@ -1,3 +1,7 @@
+'''
+by Jurie Mae Castronuevo
+from BSCOE 2-6
+'''
 #storing values of whole numbers in list
 listNumWhole = []
 
