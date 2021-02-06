@@ -3,8 +3,8 @@ by Jurie Mae Castronuevo
 from BSCOE 2-6
 '''
 import re
-x = input("Enter a word: ")
-
+z = input("Enter a word: ")
+x = z.lower()
 #x[::-1] is used to reverse all the elements
 #source lesson: https://jakevdp.github.io/PythonDataScienceHandbook/02.02-the-basics-of-numpy-arrays.html
 
@@ -13,8 +13,8 @@ x = input("Enter a word: ")
 if re.match(r"^[A-Za-z -.]+$", x):
     y = x[::-1]
     if x == y:
-        print(x, "is a palindrome")
+        print(z, "is a palindrome")
     else:
-        print(x, "is not a palindrome")
+        print(z, "is not a palindrome")
 else:
     print ("This is not a word")
