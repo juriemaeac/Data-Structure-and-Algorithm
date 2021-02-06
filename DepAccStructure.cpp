@@ -1,3 +1,8 @@
+/*by Jurie Mae Castronuevo
+from BSCOE 2-6
+
+Complete the Following Code:
+*/
 
 #include <iostream>
 using namespace std;
