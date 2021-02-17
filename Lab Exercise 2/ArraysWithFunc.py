@@ -2,7 +2,6 @@
 by Jurie Mae Castronuevo
 from BSCOE 2-6
 '''
-
 def main():
     print('=' * 30)
     # Array Initialization
