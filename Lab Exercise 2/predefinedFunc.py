@@ -1,6 +1,7 @@
 '''
 by Jurie Mae Castronuevo
 from BSCOE 2-6
+[February 13, 2021]
 '''
 n1 = input("Enter number1: ")
 if n1.isdigit():

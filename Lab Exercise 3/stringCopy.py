@@ -1,6 +1,7 @@
 '''
 by Jurie Mae Castronuevo
 from BSCOE 2-6
+[February 12, 2021]
 '''
 print("="*45)
 print("\t\tSTRING COPY")

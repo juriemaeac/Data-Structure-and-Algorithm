@@ -1,9 +1,10 @@
 '''
 by Jurie Mae Castronuevo
 from BSCOE 2-6
+[November 22, 2020]
 '''
 #numbers input split by space
-num = input("Enter 10 numbers:").split(' ') 
+num = input("Enter 10 numbers:\n").split(' ') 
 
 try:
   #convert into integer
@@ -22,7 +23,7 @@ try:
                   arr[j] = temp;    
       
       #Sorted Elements   
-      print("Elements value of array in ascending order: ");    
+      print("Element value of array in ascending order: ");    
       for i in range(0, len(arr)):    
           print(arr[i], end=" ");  
   else:

@@ -1,6 +1,7 @@
 '''
 by Jurie Mae Castronuevo
 from BSCOE 2-6
+[November 22, 2020]
 '''
 # #numbers input split by space
 num = input("Enter 10 numbers:\n").split(' ') 
@@ -24,7 +25,7 @@ try:
 
         #dictionaries can't have duplicated keys
         duplicated = list(dict.fromkeys(arr))
-        print (duplicated)
+        #print (duplicated)
 
         #used to count number of elements in filtered list
         repeated = len(duplicated)
@@ -32,14 +33,15 @@ try:
         if repeated == 1:
             print("\nfirst to the highest: ", duplicated[0]);   
             print("second to the highest: ", duplicated[0]); 
+            print("first to the lowest: ", duplicated[0]);
             print("second to the lowest: ", duplicated[0]); 
-            print("first to the lowest: ", duplicated[0]); 
         else:
             #use negative indices to get the end of an array      
             print("\nfirst to the highest: ", duplicated[-1]);   
             print("second to the highest: ", duplicated[-2])
-            print("second to the lowest: ", duplicated[1])
             print("first to the lowest: ", duplicated[0])
+            print("second to the lowest: ", duplicated[1])
+            
     else:
         print("Please input 10 numbers!")
         

@@ -1,6 +1,7 @@
 '''
 by Jurie Mae Castronuevo
 from BSCOE 2-6
+[November 22, 2020]
 '''
 import re
 z = input("Enter a word: ")
